@@ -1,0 +1,66 @@
+@media (max-width:900px) {
+    .title-img img{
+        width: 100%;
+    }
+    .first-design-img > img {
+        width: 100%;
+    }
+    .second-design-img > img {
+        width: 100%;
+    }
+    .design-img-1-content {
+         right: 52px;
+    }
+    .design-img-2-content {
+         left: 0px;
+    }
+    .design-img-1-content img {
+        width: 39px;
+        margin-bottom: 4px;
+    }
+    .design-img-1-content p {
+        font-size: 12px;
+        /* padding: 0px 50px; */
+    }
+    .design-img-2-content p {
+        font-size: 12px;
+        padding: 0px 50px;
+    }
+    .design-img-2-content h3 {
+        font-size: 18px;
+    }
+    .design-img-1-content h3 {
+        font-size: 18px;
+    }
+    .swiper1 img {
+        height: 100% !important;
+    }
+    .inner-slide h4 {
+        font-size: 14px !important;
+        line-height: 22px;
+    }
+    .inner-slide button {
+        padding: 6px 13px;
+        font-size: 10px;
+    }
+    .top-bar {
+        flex-direction: column !important;
+    }
+    .top-bar .conatct-details span a {
+        font-size: 11px !important;
+    }
+    .top-socials{
+      display: none;
+    }
+    .usefull-links{
+        margin-top: 23px;
+        text-align: left;
+    }
+    .our-mission-vision-img img {
+        width: 100%;
+        border-radius: 20px;
+    }
+    .design-img-2-content img {
+        width: 39px;
+    }
+}

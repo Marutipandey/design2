@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Clickncash</title>
+    <style>
+        .swiper1 img {
+            display: block;
+            width: 100%;
+            height: 500px;
+            object-fit: fill;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- topbar -->
+    <div class="top-bar">
+        <div class="conatct-details">
+            <span><a href=""><i class="fa-regular fa-envelope"></i> info@clickncash.in </a> </span>
+            <span><a href=""><i class="fa fa-phone"></i> 7428609551 </a> </span>
+            <span><a href=""><i class="fa fa-phone"></i> 8448345459 </a> </span>
+        </div>
+        <div class="top-socials">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <div class="my-navigation sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+                    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class=" active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="services.html">Services</a>
+                            </li>
+                           
+                            <li class="nav-item">
+                                <a class="" href="contact.html">Conatct</a>
+                            </li>
+                        </ul>
+                        <button class="get-quote" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Get Qoute</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- qoute content -->
+
+    <div class="offcanvas offcanvas-end canvas-body-bg" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title text-white" id="offcanvasRightLabel">Reach Us</h3>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+        </div>
+        <div class="offcanvas-body ">
+            <div class="contact-section ">
+                <h4 class="head">Main Office</h4>
+                <ul class="p-0 mt-3 d-flex align-tems-center">
+                    <li><i class="fa-solid fa-map"></i> </li>
+                    <li class="ps-3"><span> C - 23 2nd Floor Sector 63, Noida, Uttar Pradesh 201301 </li></span>
+                </ul>
+                <ul class="p-0 mt-3 d-flex align-items-center">
+                    <li><i class="fa-solid fa-phone"></i></li>
+                    <li class="ps-3"><span> 8448345459, 7428609551</li></span>
+                </ul>
+                <ul class="p-0 mt-3 d-flex align-items-center">
+                    <li><i class="fa-solid fa-envelope"></i></li>
+                    <li class="ps-3"><span>info@clickncash.in</li></span>
+                </ul>
+            </div>
+
+            <div class="mt-4">
+                <h4 class="head">Follow Us</h4>
+                <div class="off-follow text-center mt-3">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="off-form mt-4">
+                <h4 class="head mb-4">Query</h4>
+                <form action="" class="">
+                    <label for="">Name</label>
+                    <input type="text" name="" id="">
+                    <label for="">Mobile</label>
+                    <input type="tel" name="" id="">
+                    <label for="">Email</label>
+                    <input type="email">
+                    <label for="">Message</label>
+                    <textarea name="" id="" rows="3"></textarea>
+                    <button class="off-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Slider content -->
+
+    <div class="swiper  swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide "><img src="assets/images/banner1.png" alt="">
+                <div class="inner-slide">
+                    <h4>Web and Application <br> Services</h4>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            <div class="swiper-slide"><img src="assets/images/banner2.png" alt="">
+                <div class="inner-slide">
+                    <h4>Mobile App Development <br> Services</h4>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            <div class="swiper-slide"><img src="assets/images/banner3.png" alt="">
+                <div class="inner-slide">
+                    <h4>Mobile Recharge <br> Services</h4>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            <div class="swiper-slide"><img src="assets/images/banner4.png" alt="">
+                <div class="inner-slide">
+                    <h4>Software Services</h4>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-item">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nostrum laudantium consectetur,
+                            iste dignissimos harum ad impedit quidem iusto architecto Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ea nostrum laudantium consectetur, iste dignissimos harum ad
+                            impedit quidem iusto architecto adipisicing elit. Ea nostrum laudantium consectetur, iste
+                            dignissimos harum ad impedit quidem iusto architecto....</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet! Labore beatae veniam
+                            expedita dolorum dolores sapie</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class=" about-img">
+                        <div class=""><img src="assets/images/about-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+
+
+
+
+    <section id="services">
+        <div class="container-fluid">
+            <div class="title-img text-center">
+                <img src="assets/images/service.png" alt="">
+            </div>
+            <div class="service-header">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe iste explicabo fugit eligendi, facere
+                    voluptatem, optio quas provident dolorum molestiae tenetur et expedita adipisci distinctio nemo rem
+                    aspernatur repellendus magnam eaque! Sed culpa, nulla quasi dicta explicabo doloribus mollitia
+                    nobis?</p>
+            </div>
+            <div class=" swiper swiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="hover">
+                            <div class="service-img">
+                                <img src="assets/images/sercice-1.jpg" alt="">
+                                <div class="service-overlay">
+                                    <h4>App Development</h4>
+                                    <p>Lorem ipsum dolor sit amet adipisicing <br> elit. Nemo, Similique </p>
+                                    <button class="overlay-btn">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-img ">
+                            <img src="assets/images/service-2.png" alt="">
+                            <div class="service-overlay">
+                                <h4>B2B Software</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Aperiam, nulla.</p>
+                                <button class="overlay-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-img ">
+                            <img src="assets/images/service-3.png" alt="">
+                            <div class="service-overlay">
+                                <h4>B2C Software</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur iusto aspernatur evenie</p>
+                                <button class="overlay-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-img">
+                            <img src="assets/images/service-4.png" alt="">
+                            <div class="service-overlay">
+                                <h4>All Fintech API</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                                <button class="overlay-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="design-process">
+        <div class="container-fluid">
+            <div class="title-img text-center">
+                <img src="assets/images/design.png" alt="">
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-md-5">
+                    <div class="first-design-img">
+                        <img src="assets/images/first-design.png" alt="">
+                        <div class="design-img-1-content">
+                            <img src="assets/images/24-hours.png" alt="">
+                            <h3>Best Support</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Laboriosam > modi hic
+                                placeat dicta ex, officiis <br> natus minus minima non enim >error debitis <br>officiis
+                                voluptatibus voluptatum natus dn?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="first-design-img">
+                        <img src="assets/images/first-design.png" alt="">
+                        <div class="design-img-1-content">
+                            <img src="assets/images/protection.png" alt="">
+                            <h3>Testing & Launch</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Laboriosam > modi hic
+                                placeat dicta ex, officiis <br> natus minus minima non enim >error debitis <br>officiis
+                                voluptatibus voluptatum natus dn?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-md-5">
+                    <div class="second-design-img">
+                        <img src="assets/images/first-design.png" alt="">
+                        <div class="design-img-2-content">
+                            <img src="assets/images/maintenance.png" alt="">
+                            <h3>Maintenance and Support</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Laboriosam > modi hic
+                                placeat dicta ex, officiis <br> natus minus minima non enim >error debitis <br>officiis
+                                voluptatibus voluptatum natus dn?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="second-design-img">
+                        <img src="assets/images/first-design.png" alt="">
+                        <div class="design-img-2-content">
+                            <img src="assets/images/strategy.png" alt="">
+                            <h3>Goal & Strategies</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Laboriosam > modi hic
+                                placeat dicta ex, officiis <br> natus minus minima non enim >error debitis <br>officiis
+                                voluptatibus voluptatum natus dn?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- faqs -->
+
+    <div class="title-img text-center mt-5 mb-4">
+        <img src="assets/images/faqs.png" alt="">
+    </div>
+    <section id="faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-8">
+                    <div class="faqs-area">
+                        <ul>
+                            <li> <a data-bs-toggle="collapse" href="#faqs-1" aria-expanded="false"
+                                    aria-controls="faqs-1" >How App Development Works? <i class="fa fa-plus"></i></a>
+                                <p class="collapse" id="faqs-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quaerat, aperiam. Aperiam expedita vero praesentium cum!</p>
+                            </li>
+                            <li> <a data-bs-toggle="collapse" href="#faqs-2" aria-expanded="false"
+                                    aria-controls="faqs-2">How App Development Works? <i class="fa fa-plus"></i></a>
+                                <p class="collapse" id="faqs-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quaerat, aperiam. Aperiam expedita vero praesentium cum!</p>
+                            </li>
+                            <li> <a data-bs-toggle="collapse" href="#faqs-3" aria-expanded="false"
+                                    aria-controls="faqs-3">How App Development Works? <i class="fa fa-plus"></i></a>
+                                <p class="collapse" id="faqs-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quaerat, aperiam. Aperiam expedita vero praesentium cum!</p>
+                            </li>
+                            <li> <a data-bs-toggle="collapse" href="#faqs-4" aria-expanded="false"
+                                    aria-controls="faqs-4">How App Development Works? <i class="fa fa-plus"></i></a>
+                                <p class="collapse" id="faqs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quaerat, aperiam. Aperiam expedita vero praesentium cum!</p>
+                            </li>
+                            <li> <a data-bs-toggle="collapse" href="#faqs-5" aria-expanded="false"
+                                aria-controls="faqs-5">How App Development Works? <i class="fa fa-plus"></i></a>
+                            <p class="collapse" id="faqs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quaerat, aperiam. Aperiam expedita vero praesentium cum!</p>
+                        </li>
+                      
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="clients">
+        <div class="swiper swiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-center">
+                <div class="clients-box">
+                 <div class="clients-box-item">
+                    <img src="assets/images/clients-1.jpg" alt="">
+                    <h4>Person Name</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum soluta nihil <br> doloremque voluptas nesciunt eveniet quis recusandae nostrum odit.</p>
+                 </div> 
+                </div>
+              </div>
+              <div class="swiper-slide text-center">
+                <div class="clients-box">
+                    <div class="clients-box-item">
+                       <img src="assets/images/clients-1.jpg" alt="">
+                       <h4>Person Name</h4>
+                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum soluta nihil <br> doloremque voluptas nesciunt eveniet quis recusandae nostrum odit.</p>
+                    </div> 
+                   </div>
+              </div>
+              <div class="swiper-slide text-center">
+                <div class="clients-box">
+                    <div class="clients-box-item">
+                       <img src="assets/images/clients-1.jpg" alt="">
+                       <h4>Person Name</h4>
+                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum soluta nihil <br> doloremque voluptas nesciunt eveniet quis recusandae nostrum odit.</p>
+                    </div> 
+                   </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+
+    <section id="footer">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-about">
+                            <img src="assets/images/logo.png" alt="">
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laudantium reiciendis repellat iste esse ullam dignissimos aliquid recusandae incidunt. Tempora aliquam beatae quis illum aspernatur quod totam asperiores neque soluta!20</p>
+                            <div class="footer-social">
+                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-md-2 text-center">
+                        <div class="usefull-links">
+                            <h4 class="footer-h4">Usefull Links</h4>
+                           <ul class="p-0">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>    
+                            <li><a href="contact.html">Contact</a></li>
+                           </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="footer-contact">
+                            <h4 class="footer-h4">Contact US</h4>
+                        <ul class="p-0 mt-3 d-flex align-tems-center">
+                            <li><i class="fa-solid fa-map"></i> </li>
+                            <li class="ps-3"><span> C - 23 2nd Floor Sector 63, <br> Noida, Uttar Pradesh 201301 </li></span>
+                        </ul>
+                        <ul class="p-0 mt-3 d-flex align-items-center">
+                            <li><i class="fa-solid fa-phone"></i></li>
+                            <li class="ps-3"><span> 8448345459, 7428609551</li></span>
+                        </ul>
+                        <ul class="p-0 mt-3 d-flex align-items-center">
+                            <li><i class="fa-solid fa-envelope"></i></li>
+                            <li class="ps-3"><span>info@clickncash.in</li></span>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                     <div class="footer-query">
+                        <h4 class="footer-h4">Quick Enquiry</h4>
+                        <label for="">Name</label>
+                        <input type="text" name="" id="">
+                        <label for="">Email</label>
+                        <input type="email" name="" id="">
+                        <label for="">Message</label>
+                        <textarea name="" id="" rows="4"></textarea>
+                        <button class="foot-send">Send</button>
+                     </div>
+                    </div>
+                </div>       
+            </div>
+        </footer>
+    </section>
+
+
+    <script src="assets/js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper1 = new Swiper('.swiper1', {
+            autoplay: {
+                delay: 3000,
+            },
+            effect: "fade",
+            loop: true,
+        });
+
+        var swiper2 = new Swiper(".swiper2", {
+            loop: true,
+            autoplay: {
+                delay: 2000,
+            },
+            slidesPerView: 4,
+            spaceBetween: 30,
+            breakpoints: {
+                340: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                650: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                900: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+            },
+        });
+
+        var swiper3 = new Swiper(".swiper3", {
+            autoplay: {
+                delay: 3000,
+            },
+            loop: true,
+            pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+
+    </script>
+</body>
+
+</html>
